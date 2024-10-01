@@ -1,0 +1,86 @@
+[
+  {
+    "ime": "Seat Ibica",
+    "cena": "3000 RSD",
+    "slika": "images/1.jpg",
+    "coment": 3,
+    "opis": "nov auto"
+  },
+  {
+    "ime": "Citroen C4",
+    "cena": "4000 RSD",
+    "slika": "images/2.jpg",
+    "coment": 2,
+    "opis": "nov auto"
+  },
+  {
+    "ime": "Skoda Fabia",
+    "cena": "3000 RSD",
+    "slika": "images/3.jpg",
+    "coment": 1,
+    "opis": "nov auto"
+  },
+  {
+    "ime": "Skoda Fabia",
+    "cena": "5000 RSD",
+    "slika": "images/4.jpg",
+    "coment": 4,
+    "opis": "nov auto"
+  },
+  {
+    "ime": "Golf 5",
+    "cena": "3000 RSD",
+    "slika": "images/5.jpg",
+    "coment": 2,
+    "opis": "nov auto"
+  },
+  {
+    "ime": "Polo",
+    "cena": "4000 RSD",
+    "slika": "images/6.jpg",
+    "coment": 0,
+    "opis": "nov auto"
+  },
+  {
+    "ime": "Fabia karavan",
+    "cena": "2000 RSD",
+    "slika": "images/7.jpg",
+    "coment": 6,
+    "opis": "nov auto"
+  },
+  {
+    "ime": "Fabia karavan",
+    "cena": "3000 RSD",
+    "slika": "images/8.jpg",
+    "coment": 3,
+    "opis": "nov auto"
+  },
+  {
+    "ime": "Renault megane",
+    "cena": "5000 RSD",
+    "slika": "images/9.jpg",
+    "coment": 3,
+    "opis": "nov auto"
+  },
+  {
+    "ime": "Golf 5",
+    "cena": "6000 RSD",
+    "slika": "images/10.jpg",
+    "coment": 2,
+    "opis": "nov auto"
+  },
+  {
+    "ime": "Skoda Fabia",
+    "cena": "4000 RSD",
+    "slika": "images/11.jpg",
+    "coment": 4,
+    "opis": "nov auto"
+  },
+  {
+    "ime": "Reanault clio",
+    "cena": "2500 RSD",
+    "slika": "images/12.jpg",
+    "coment": 3,
+    "opis": "nov auto"
+  }
+]

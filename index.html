@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>RENTA CAR</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  </head>
+  <body>
+    <div id="navigacija">
+      <div id="logo">
+        <img src="images/logo.jpg" alt="logo" />
+      </div>
+      <nav>
+        <a href="index.html">naslovna</a>
+        <a href="#naslov">ponuda vozila</a>
+        <a href="usloviNajma.html">uslovi najma</a>
+        <a href="index1.html">Celokupna ponuda</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </div><div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img
+          src="images/mercedes-benz-e-class-w214-stage-3840x1707-02-2023.avif"
+          style="width: 100%"
+        />
+        <div class="opis"> Rent a Car <i>ALEKSIC</i> Beograd nudi usluge iznajmljivanja različitih
+          kategorija vozila sa ili bez vozača u Srbiji i inostranstvu. Naša misija
+          jesu zadovoljni klijenti, zbog čega nudimo veliki izbor vozila u
+          nekoliko kategorija po veoma povoljnim cenama najma.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img
+          src="images/MB-online-salon-2023-2558x1066.avif"
+          style="width: 100%"
+        />
+        <div class="opis" ></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="slicica" class="numbertext"></div>
+        <img
+          src="images/EQ-modeli-nova-stranica-2730x1213px.avif"
+          style="width: 100%"
+        />
+        <div class="opis"> Rent a Car <i>ALEKSIC</i> Beograd nudi usluge iznajmljivanja različitih
+          kategorija vozila sa ili bez vozača u Srbiji i inostranstvu.Vozilo moze biti preuzeto na svaloj adresi u zemlji.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img
+          src="images/mercedes-maybach-gls-x167-pad-home-teaser-764x573-03-2023.avif"
+          style="width: 100%"
+        />
+       
+        <div class="opis"> </div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <!-- <div id="glavni">
+      <p class="opis">
+        Rent a Car <i>ALEKSIC</i> Beograd nudi usluge iznajmljivanja različitih
+        kategorija vozila sa ili bez vozača u Srbiji i inostranstvu. Naša misija
+        jesu zadovoljni klijenti, zbog čega nudimo veliki izbor vozila u
+        nekoliko kategorija po veoma povoljnim cenama najma.
+      </p> -->
+    </div>
+    <div id="zuti">
+      <div class="prvi">
+        <h2>Vozilo na vasoj adresi</h2>
+        <p class="zuti1">
+          Mogućnost isporuke vozila na Vašu adresu ili aerodrom Nikola Tesla.I
+          Najbolje rent a car cene
+        </p>
+      </div>
+     <div class="prvi">
+        <h2>Vozilo na vasoj adresi</h2>
+        <p class="zuti1">
+          Mogućnost isporuke vozila na Vašu adresu ili aerodrom Nikola Tesla.I
+          Najbolje rent a car cene.</br>
+          +381 66 XXX XX XX
+        </p>
+      </div>
+
+          <div class="prvi">
+        <h2>Dugorocni najam</h2>
+        <p class="zuti1">
+          Za rentiranje automobila beograd na duži vremenski period nudimo Vam posebne pogodnosti.
+        </p>
+      </div>
+    </div>
+    <h1 id="naslov">Renta car Aleksic</h1>
+      <div id="ponuda"></div>
+      <form id="forma" 
+       action="document.php"
+      method="get"
+      onsubmit="return provera()"
+      name="formular1"
+      
+      >
+        <h2>Ukoliko zelite da rentirate vozilo,unesite vase podatke</h2>
+        <input type="text" id="idIme" /><br />
+        <span class="spanPrvi">ime</span><br />
+        <input type="text" name="imePrezime" id="idPrezime" /><br />
+        <span class="spanDrugi">prezime</span><br />
+        <input type="email" name="imeMail" id="idMail" /><br /><span class="spanTreci">mail</span></br>
+        
+        <button id="dugme1">klikni</button>
+        
+      </form>
+      <form action="document.php" id="padajuci">
+
+      </form>
+
+    <button class="naVrh"><a href="#">^</a></button>
+<footer>Design by Aleksic Radivoje    &copy;2024. Copyright by Aleksic Rent a car</footer>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/drugi.js"></script>
+
+
+    
+  </body>
+</html>
